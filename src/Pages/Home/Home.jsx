@@ -1,4 +1,6 @@
-import Login from "../../Components/Login/Login";
+
+import RefForm from "../../Components/RefForm/RefForm";
+import StatefullForm from "../../Components/StatefullForm/StatefullForm";
 
 
 
@@ -6,7 +8,8 @@ import Login from "../../Components/Login/Login";
 const Home = () => {
     return (
         <div>
-            <Login/>
+           <StatefullForm/>
+           <RefForm/>
         </div>
     );
 };
