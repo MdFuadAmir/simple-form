@@ -1,4 +1,5 @@
 
+import HookForm from "../../Components/HookForm/HookForm";
 import RefForm from "../../Components/RefForm/RefForm";
 import StatefullForm from "../../Components/StatefullForm/StatefullForm";
 
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
            <StatefullForm/>
            <RefForm/>
+           <HookForm/>
         </div>
     );
 };

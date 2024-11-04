@@ -6,7 +6,7 @@ const useInputState = (defaultValue = null) => {
     const handelChange = e =>{
         setValue(e);
     }
-    return {value,handelChange}
+    return [value,handelChange] 
 };
 
 export default useInputState;
